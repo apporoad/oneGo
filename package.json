@@ -1,0 +1,14 @@
+{
+  "author": "GEB3LEHBZD7F7YH\\Administrator",
+  "bugs": {
+    "url": "here"
+  },
+  "gx": {},
+  "gxVersion": "0.14.0",
+  "language": "go",
+  "license": "",
+  "name": "oneGo",
+  "releaseCmd": "git commit -a -m \"gx publish $VERSION\"",
+  "version": "0.0.0"
+}
+
