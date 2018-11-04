@@ -1,0 +1,131 @@
+{
+	"ImportPath": "github.com/apporoad/oneGo",
+	"GoVersion": "go1.11",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/btcsuite/btcd/btcec",
+			"Comment": "BTCD_0_12_0_BETA-856-g67e573d",
+			"Rev": "67e573d211ace594f1366b4ce9d39726c4b19bd0"
+		},
+		{
+			"ImportPath": "github.com/gogo/protobuf/proto",
+			"Comment": "v1.1.1-31-ge87afe3c",
+			"Rev": "e87afe3c25daf6fa321fed3705938e53672b0a3b"
+		},
+		{
+			"ImportPath": "github.com/gxed/hashland/keccakpg",
+			"Rev": "d9f6b97f8db22dd1e090fd0bbbe98f09cc7dd0a8"
+		},
+		{
+			"ImportPath": "github.com/ipfs/go-ipfs-api",
+			"Comment": "v1.3.5-21-ge07bc16",
+			"Rev": "e07bc160ef35506a1fd83ebe5945f85bcedc2e74"
+		},
+		{
+			"ImportPath": "github.com/ipfs/go-ipfs-files",
+			"Rev": "90d206a6f3947f904673ebffd376a2dcbbd84942"
+		},
+		{
+			"ImportPath": "github.com/ipfs/go-ipfs-util",
+			"Comment": "v1.2.8-1-g05b6094",
+			"Rev": "05b6094b6fa9c1e49b4b941061fdc147db1a21b7"
+		},
+		{
+			"ImportPath": "github.com/libp2p/go-flow-metrics",
+			"Comment": "v0.2.0-8-g7e5a55a",
+			"Rev": "7e5a55af485341567f98d6847a373eb5ddcdcd43"
+		},
+		{
+			"ImportPath": "github.com/libp2p/go-libp2p-crypto",
+			"Comment": "v2.0.1-17-g3120e9f",
+			"Rev": "3120e9f9526fe05f2d3905961a5e0701b85579d9"
+		},
+		{
+			"ImportPath": "github.com/libp2p/go-libp2p-crypto/pb",
+			"Comment": "v2.0.1-17-g3120e9f",
+			"Rev": "3120e9f9526fe05f2d3905961a5e0701b85579d9"
+		},
+		{
+			"ImportPath": "github.com/libp2p/go-libp2p-metrics",
+			"Comment": "v2.1.7-3-g2d5733b",
+			"Rev": "2d5733beaa2a9fdd05ef696d7a734aa61549fb2a"
+		},
+		{
+			"ImportPath": "github.com/libp2p/go-libp2p-peer",
+			"Comment": "v2.4.0-3-gd3df4bc",
+			"Rev": "d3df4bca884d7a9c2d350c8120240db3c2b0f2ee"
+		},
+		{
+			"ImportPath": "github.com/libp2p/go-libp2p-protocol",
+			"Comment": "v1.0.0-12-gb29f3d9",
+			"Rev": "b29f3d97e3a2fb8b29c5d04290e6cb5c5018004b"
+		},
+		{
+			"ImportPath": "github.com/minio/blake2b-simd",
+			"Rev": "3f5f724cb5b182a5c278d6d3d55b40e7f8c2efb4"
+		},
+		{
+			"ImportPath": "github.com/minio/sha256-simd",
+			"Rev": "51976451ce1942acbb55707a983ed232fa027110"
+		},
+		{
+			"ImportPath": "github.com/mitchellh/go-homedir",
+			"Comment": "v1.0.0",
+			"Rev": "ae18d6b8b3205b561c79e8e5f69bff09736185f4"
+		},
+		{
+			"ImportPath": "github.com/mr-tron/base58/base58",
+			"Comment": "v1.1.0-2-gc889761",
+			"Rev": "c8897612421d88a51012eaa53bf7267686173ae5"
+		},
+		{
+			"ImportPath": "github.com/multiformats/go-multiaddr",
+			"Comment": "v1.3.0-34-gec8630b",
+			"Rev": "ec8630b6b7436b5d7f6c1c2366d3d7214d1b29e2"
+		},
+		{
+			"ImportPath": "github.com/multiformats/go-multiaddr-net",
+			"Comment": "v1.6.3-29-gf0af403",
+			"Rev": "f0af4033635f1241179700537dacdc04f2803df8"
+		},
+		{
+			"ImportPath": "github.com/multiformats/go-multihash",
+			"Comment": "v1.0.8-10-ga91e75d",
+			"Rev": "a91e75d03bf4dba801af7b159c8b2aa7b5f47ea8"
+		},
+		{
+			"ImportPath": "github.com/spaolacci/murmur3",
+			"Comment": "v1.1-1-gf09979e",
+			"Rev": "f09979ecbc725b9e6d41a297405f65e7e8804acc"
+		},
+		{
+			"ImportPath": "github.com/whyrusleeping/tar-utils",
+			"Rev": "8c6c8ba81d5c71fd69c0f48dbde4b2fb422b6dfc"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/blake2s",
+			"Rev": "4d3f4d9ffa16a13f451c3b2999e9c49e9750bf06"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ed25519",
+			"Rev": "4d3f4d9ffa16a13f451c3b2999e9c49e9750bf06"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ed25519/internal/edwards25519",
+			"Rev": "4d3f4d9ffa16a13f451c3b2999e9c49e9750bf06"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/sha3",
+			"Rev": "4d3f4d9ffa16a13f451c3b2999e9c49e9750bf06"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/cpu",
+			"Rev": "9b800f95dbbc54abff0acf7ee32d88ba4e328c89"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows",
+			"Rev": "9b800f95dbbc54abff0acf7ee32d88ba4e328c89"
+		}
+	]
+}
