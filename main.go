@@ -1,15 +1,24 @@
 package main
 
-import(
-	"github.com/ipfs/go-ipfs-api"
+import (
+	"fmt"
+	_ "os"
+	_ "strings"
 
-	u "github.com/ipfs/go-ipfs-util"
+	shell "github.com/ipfs/go-ipfs-api"
 )
 
-var sh *shell.shell
+func main() {
+	sh := shell.NewShell("localhost:5001")
 
+	fmt.Println(sh.Cat("/ipfs/QmWf5P56MCRMN1mmjACD3NBemqHDcxtueLjea5zM4CSgGo"))
 
-func main(){
-	
-	println("acbv");
+	// cid , err := sh.Add(strings.NewReader("hello good day"))
+
+	// if err !=nil {
+	// 	fmt.Fprintf(os.Stderr, "error : %s",err)
+	// 	os.Exit(1)
+	// }
+	// fmt.Println("added %s",cid)
+	//cid ,err = sh.Add
 }

@@ -27,11 +27,6 @@
 			"Rev": "90d206a6f3947f904673ebffd376a2dcbbd84942"
 		},
 		{
-			"ImportPath": "github.com/ipfs/go-ipfs-util",
-			"Comment": "v1.2.8-1-g05b6094",
-			"Rev": "05b6094b6fa9c1e49b4b941061fdc147db1a21b7"
-		},
-		{
 			"ImportPath": "github.com/libp2p/go-flow-metrics",
 			"Comment": "v0.2.0-8-g7e5a55a",
 			"Rev": "7e5a55af485341567f98d6847a373eb5ddcdcd43"
